@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		030365E12C038E3B0068E9E0 /* GroceriesStoreApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030365E02C038E3B0068E9E0 /* GroceriesStoreApp.swift */; };
+		030365E52C038E400068E9E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030365E42C038E400068E9E0 /* Assets.xcassets */; };
+		030365E82C038E400068E9E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 030365E72C038E400068E9E0 /* Preview Assets.xcassets */; };
+		030366032C038F4C0068E9E0 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365EF2C038F4C0068E9E0 /* Gilroy-Medium.ttf */; };
+		030366042C038F4C0068E9E0 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F02C038F4C0068E9E0 /* Gilroy-SemiBold.ttf */; };
+		030366052C038F4C0068E9E0 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F12C038F4C0068E9E0 /* Gilroy-Bold.ttf */; };
+		030366062C038F4C0068E9E0 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F22C038F4C0068E9E0 /* Gilroy-RegularItalic.ttf */; };
+		030366072C038F4C0068E9E0 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F32C038F4C0068E9E0 /* Gilroy-UltraLightItalic.ttf */; };
+		030366082C038F4C0068E9E0 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F42C038F4C0068E9E0 /* Gilroy-Regular.ttf */; };
+		030366092C038F4C0068E9E0 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F52C038F4C0068E9E0 /* Gilroy-MediumItalic.ttf */; };
+		0303660A2C038F4C0068E9E0 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F62C038F4C0068E9E0 /* Gilroy-Light.ttf */; };
+		0303660B2C038F4C0068E9E0 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F72C038F4C0068E9E0 /* Gilroy-Black.ttf */; };
+		0303660C2C038F4C0068E9E0 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F82C038F4C0068E9E0 /* Gilroy-BlackItalic.ttf */; };
+		0303660D2C038F4C0068E9E0 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365F92C038F4C0068E9E0 /* Gilroy-Heavy.ttf */; };
+		0303660E2C038F4C0068E9E0 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365FA2C038F4C0068E9E0 /* Gilroy-HeavyItalic.ttf */; };
+		0303660F2C038F4C0068E9E0 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365FB2C038F4C0068E9E0 /* Gilroy-ExtraBoldItalic.ttf */; };
+		030366102C038F4C0068E9E0 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365FC2C038F4C0068E9E0 /* Gilroy-ThinItalic.ttf */; };
+		030366112C038F4C0068E9E0 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365FD2C038F4C0068E9E0 /* Gilroy-UltraLight.ttf */; };
+		030366122C038F4C0068E9E0 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365FE2C038F4C0068E9E0 /* Gilroy-BoldItalic.ttf */; };
+		030366132C038F4C0068E9E0 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030365FF2C038F4C0068E9E0 /* Gilroy-Thin.ttf */; };
+		030366142C038F4C0068E9E0 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030366002C038F4C0068E9E0 /* Gilroy-LightItalic.ttf */; };
+		030366152C038F4C0068E9E0 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030366012C038F4C0068E9E0 /* Gilroy-SemiBoldItalic.ttf */; };
+		030366162C038F4D0068E9E0 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 030366022C038F4C0068E9E0 /* Gilroy-ExtraBold.ttf */; };
+		0303661D2C0391840068E9E0 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0303661C2C0391840068E9E0 /* WelcomeView.swift */; };
+		0303661F2C0391E80068E9E0 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0303661E2C0391E80068E9E0 /* Launch Screen.storyboard */; };
+		030366232C039B0B0068E9E0 /* UiExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 030366222C039B0B0068E9E0 /* UiExtensions.swift */; };
+		0311754B2C03C22700CF05DE /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311754A2C03C22600CF05DE /* RoundedButton.swift */; };
+		031175502C03C50D00CF05DE /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0311754F2C03C50C00CF05DE /* SignInView.swift */; };
+		031175522C065F1400CF05DE /* VisualEffectBlur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031175512C065F1400CF05DE /* VisualEffectBlur.swift */; };
+		031175542C06651200CF05DE /* PlaceholderStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 031175532C06651200CF05DE /* PlaceholderStyle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		030365DD2C038E3B0068E9E0 /* GroceriesStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceriesStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		030365E02C038E3B0068E9E0 /* GroceriesStoreApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceriesStoreApp.swift; sourceTree = "<group>"; };
+		030365E42C038E400068E9E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		030365E72C038E400068E9E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		030365EF2C038F4C0068E9E0 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Medium.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		030365F02C038F4C0068E9E0 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-SemiBold.ttf"; path = "../../../../Downloads/gilroy/Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		030365F12C038F4C0068E9E0 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Bold.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		030365F22C038F4C0068E9E0 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-RegularItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		030365F32C038F4C0068E9E0 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-UltraLightItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		030365F42C038F4C0068E9E0 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Regular.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		030365F52C038F4C0068E9E0 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-MediumItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		030365F62C038F4C0068E9E0 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Light.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		030365F72C038F4C0068E9E0 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Black.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		030365F82C038F4C0068E9E0 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-BlackItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		030365F92C038F4C0068E9E0 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Heavy.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		030365FA2C038F4C0068E9E0 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-HeavyItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		030365FB2C038F4C0068E9E0 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-ExtraBoldItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		030365FC2C038F4C0068E9E0 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-ThinItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		030365FD2C038F4C0068E9E0 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-UltraLight.ttf"; path = "../../../../Downloads/gilroy/Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		030365FE2C038F4C0068E9E0 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-BoldItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		030365FF2C038F4C0068E9E0 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-Thin.ttf"; path = "../../../../Downloads/gilroy/Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		030366002C038F4C0068E9E0 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-LightItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		030366012C038F4C0068E9E0 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-SemiBoldItalic.ttf"; path = "../../../../Downloads/gilroy/Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		030366022C038F4C0068E9E0 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gilroy-ExtraBold.ttf"; path = "../../../../Downloads/gilroy/Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		030366172C038FC40068E9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		0303661C2C0391840068E9E0 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		0303661E2C0391E80068E9E0 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		030366222C039B0B0068E9E0 /* UiExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiExtensions.swift; sourceTree = "<group>"; };
+		0311754A2C03C22600CF05DE /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
+		0311754F2C03C50C00CF05DE /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		031175512C065F1400CF05DE /* VisualEffectBlur.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectBlur.swift; sourceTree = "<group>"; };
+		031175532C06651200CF05DE /* PlaceholderStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceholderStyle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		030365DA2C038E3B0068E9E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		030365D42C038E3B0068E9E0 = {
+			isa = PBXGroup;
+			children = (
+				030365DF2C038E3B0068E9E0 /* GroceriesStore */,
+				030365DE2C038E3B0068E9E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		030365DE2C038E3B0068E9E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				030365DD2C038E3B0068E9E0 /* GroceriesStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		030365DF2C038E3B0068E9E0 /* GroceriesStore */ = {
+			isa = PBXGroup;
+			children = (
+				0303661B2C0391180068E9E0 /* UiCommon */,
+				0303661A2C0390EB0068E9E0 /* ViewsModels */,
+				030366192C0390BD0068E9E0 /* Models */,
+				030366182C0390AA0068E9E0 /* Views */,
+				030366172C038FC40068E9E0 /* Info.plist */,
+				030365EE2C038E900068E9E0 /* fonts */,
+				030365E02C038E3B0068E9E0 /* GroceriesStoreApp.swift */,
+				030365E42C038E400068E9E0 /* Assets.xcassets */,
+				030365E62C038E400068E9E0 /* Preview Content */,
+				0303661E2C0391E80068E9E0 /* Launch Screen.storyboard */,
+			);
+			path = GroceriesStore;
+			sourceTree = "<group>";
+		};
+		030365E62C038E400068E9E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				030365E72C038E400068E9E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		030365EE2C038E900068E9E0 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				030365F72C038F4C0068E9E0 /* Gilroy-Black.ttf */,
+				030365F82C038F4C0068E9E0 /* Gilroy-BlackItalic.ttf */,
+				030365F12C038F4C0068E9E0 /* Gilroy-Bold.ttf */,
+				030365FE2C038F4C0068E9E0 /* Gilroy-BoldItalic.ttf */,
+				030366022C038F4C0068E9E0 /* Gilroy-ExtraBold.ttf */,
+				030365FB2C038F4C0068E9E0 /* Gilroy-ExtraBoldItalic.ttf */,
+				030365F92C038F4C0068E9E0 /* Gilroy-Heavy.ttf */,
+				030365FA2C038F4C0068E9E0 /* Gilroy-HeavyItalic.ttf */,
+				030365F62C038F4C0068E9E0 /* Gilroy-Light.ttf */,
+				030366002C038F4C0068E9E0 /* Gilroy-LightItalic.ttf */,
+				030365EF2C038F4C0068E9E0 /* Gilroy-Medium.ttf */,
+				030365F52C038F4C0068E9E0 /* Gilroy-MediumItalic.ttf */,
+				030365F42C038F4C0068E9E0 /* Gilroy-Regular.ttf */,
+				030365F22C038F4C0068E9E0 /* Gilroy-RegularItalic.ttf */,
+				030365F02C038F4C0068E9E0 /* Gilroy-SemiBold.ttf */,
+				030366012C038F4C0068E9E0 /* Gilroy-SemiBoldItalic.ttf */,
+				030365FF2C038F4C0068E9E0 /* Gilroy-Thin.ttf */,
+				030365FC2C038F4C0068E9E0 /* Gilroy-ThinItalic.ttf */,
+				030365FD2C038F4C0068E9E0 /* Gilroy-UltraLight.ttf */,
+				030365F32C038F4C0068E9E0 /* Gilroy-UltraLightItalic.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
+		030366182C0390AA0068E9E0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0311754C2C03C45900CF05DE /* Login */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		030366192C0390BD0068E9E0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0303661A2C0390EB0068E9E0 /* ViewsModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewsModels;
+			sourceTree = "<group>";
+		};
+		0303661B2C0391180068E9E0 /* UiCommon */ = {
+			isa = PBXGroup;
+			children = (
+				030366222C039B0B0068E9E0 /* UiExtensions.swift */,
+				031175512C065F1400CF05DE /* VisualEffectBlur.swift */,
+				0311754A2C03C22600CF05DE /* RoundedButton.swift */,
+				031175532C06651200CF05DE /* PlaceholderStyle.swift */,
+			);
+			path = UiCommon;
+			sourceTree = "<group>";
+		};
+		0311754C2C03C45900CF05DE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				0303661C2C0391840068E9E0 /* WelcomeView.swift */,
+				0311754F2C03C50C00CF05DE /* SignInView.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		030365DC2C038E3B0068E9E0 /* GroceriesStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 030365EB2C038E400068E9E0 /* Build configuration list for PBXNativeTarget "GroceriesStore" */;
+			buildPhases = (
+				030365D92C038E3B0068E9E0 /* Sources */,
+				030365DA2C038E3B0068E9E0 /* Frameworks */,
+				030365DB2C038E3B0068E9E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GroceriesStore;
+			productName = GroceriesStore;
+			productReference = 030365DD2C038E3B0068E9E0 /* GroceriesStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		030365D52C038E3B0068E9E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					030365DC2C038E3B0068E9E0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 030365D82C038E3B0068E9E0 /* Build configuration list for PBXProject "GroceriesStore" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 030365D42C038E3B0068E9E0;
+			productRefGroup = 030365DE2C038E3B0068E9E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				030365DC2C038E3B0068E9E0 /* GroceriesStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		030365DB2C038E3B0068E9E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030365E82C038E400068E9E0 /* Preview Assets.xcassets in Resources */,
+				030366042C038F4C0068E9E0 /* Gilroy-SemiBold.ttf in Resources */,
+				0303660F2C038F4C0068E9E0 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				0303660B2C038F4C0068E9E0 /* Gilroy-Black.ttf in Resources */,
+				030366112C038F4C0068E9E0 /* Gilroy-UltraLight.ttf in Resources */,
+				030366092C038F4C0068E9E0 /* Gilroy-MediumItalic.ttf in Resources */,
+				0303660C2C038F4C0068E9E0 /* Gilroy-BlackItalic.ttf in Resources */,
+				0303660A2C038F4C0068E9E0 /* Gilroy-Light.ttf in Resources */,
+				030366052C038F4C0068E9E0 /* Gilroy-Bold.ttf in Resources */,
+				030366082C038F4C0068E9E0 /* Gilroy-Regular.ttf in Resources */,
+				030366152C038F4C0068E9E0 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				0303660D2C038F4C0068E9E0 /* Gilroy-Heavy.ttf in Resources */,
+				030366142C038F4C0068E9E0 /* Gilroy-LightItalic.ttf in Resources */,
+				030366132C038F4C0068E9E0 /* Gilroy-Thin.ttf in Resources */,
+				030366072C038F4C0068E9E0 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				030366062C038F4C0068E9E0 /* Gilroy-RegularItalic.ttf in Resources */,
+				030366032C038F4C0068E9E0 /* Gilroy-Medium.ttf in Resources */,
+				030366102C038F4C0068E9E0 /* Gilroy-ThinItalic.ttf in Resources */,
+				030366162C038F4D0068E9E0 /* Gilroy-ExtraBold.ttf in Resources */,
+				0303660E2C038F4C0068E9E0 /* Gilroy-HeavyItalic.ttf in Resources */,
+				030365E52C038E400068E9E0 /* Assets.xcassets in Resources */,
+				0303661F2C0391E80068E9E0 /* Launch Screen.storyboard in Resources */,
+				030366122C038F4C0068E9E0 /* Gilroy-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		030365D92C038E3B0068E9E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				030365E12C038E3B0068E9E0 /* GroceriesStoreApp.swift in Sources */,
+				031175542C06651200CF05DE /* PlaceholderStyle.swift in Sources */,
+				0303661D2C0391840068E9E0 /* WelcomeView.swift in Sources */,
+				030366232C039B0B0068E9E0 /* UiExtensions.swift in Sources */,
+				031175522C065F1400CF05DE /* VisualEffectBlur.swift in Sources */,
+				0311754B2C03C22700CF05DE /* RoundedButton.swift in Sources */,
+				031175502C03C50D00CF05DE /* SignInView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		030365E92C038E400068E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		030365EA2C038E400068E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		030365EC2C038E400068E9E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GroceriesStore/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroceriesStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oliva.GroceriesStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		030365ED2C038E400068E9E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GroceriesStore/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GroceriesStore/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oliva.GroceriesStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		030365D82C038E3B0068E9E0 /* Build configuration list for PBXProject "GroceriesStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030365E92C038E400068E9E0 /* Debug */,
+				030365EA2C038E400068E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		030365EB2C038E400068E9E0 /* Build configuration list for PBXNativeTarget "GroceriesStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				030365EC2C038E400068E9E0 /* Debug */,
+				030365ED2C038E400068E9E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 030365D52C038E3B0068E9E0 /* Project object */;
+}
