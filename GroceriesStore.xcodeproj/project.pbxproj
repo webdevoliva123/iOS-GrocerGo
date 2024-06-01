@@ -50,6 +50,7 @@
 		033D350D2C0A6F0F00F4B35C /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D350C2C0A6F0F00F4B35C /* TabButton.swift */; };
 		033D350F2C0B316900F4B35C /* ViewCarousleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D350E2C0B316900F4B35C /* ViewCarousleModel.swift */; };
 		033D35112C0B31B300F4B35C /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D35102C0B31B300F4B35C /* Carousel.swift */; };
+		033D35132C0B542700F4B35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033D35122C0B542700F4B35C /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -97,6 +98,7 @@
 		033D350C2C0A6F0F00F4B35C /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
 		033D350E2C0B316900F4B35C /* ViewCarousleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCarousleModel.swift; sourceTree = "<group>"; };
 		033D35102C0B31B300F4B35C /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
+		033D35122C0B542700F4B35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +132,7 @@
 		030365DF2C038E3B0068E9E0 /* GroceriesStore */ = {
 			isa = PBXGroup;
 			children = (
+				033D35122C0B542700F4B35C /* Assets.xcassets */,
 				033D34FC2C0A3B9300F4B35C /* welcome.mp4 */,
 				0303661B2C0391180068E9E0 /* UiCommon */,
 				0303661A2C0390EB0068E9E0 /* ViewsModels */,
@@ -343,6 +346,7 @@
 				030366162C038F4D0068E9E0 /* Gilroy-ExtraBold.ttf in Resources */,
 				0303660E2C038F4C0068E9E0 /* Gilroy-HeavyItalic.ttf in Resources */,
 				0303661F2C0391E80068E9E0 /* Launch Screen.storyboard in Resources */,
+				033D35132C0B542700F4B35C /* Assets.xcassets in Resources */,
 				030366122C038F4C0068E9E0 /* Gilroy-BoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
