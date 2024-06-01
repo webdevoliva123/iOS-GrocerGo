@@ -94,6 +94,10 @@ extension Color {
         return Color(hex: "7C7C7C")
     }
     
+    static var textSubtitleC: Color {
+        return Color(hex: "CCCCCC")
+    }
+    
     static var placeholderC: Color {
         return Color(hex: "B1B1B1")
     }

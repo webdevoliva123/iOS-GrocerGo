@@ -12,17 +12,22 @@ struct WelcomeView: View {
         NavigationView(){
             ZStack{
                 // Background Image
-                Image("Welcome")
-                    .resizable()
-                    .scaledToFill()
-                    .brightness(-0.2)
-                    .ignoresSafeArea() // Ensure the image covers the entire screen
+//                Image("Welcome")
+//                    .resizable()
+//                    .scaledToFill()
+//                    .brightness(-0.2)
+//                    .ignoresSafeArea()
+////                 Ensure the image covers the entire screen
+                
+                VideoPlayerView()
+                .brightness(-0.4)
+                .ignoresSafeArea()
 
                 // Contentff
                 VStack {
                     Spacer()
                     
-                    Image("app_logo")
+                    Image("Logo2")
                         .resizable()
                         .scaledToFit()
                         .frame(width: 100, height: 100)
@@ -51,7 +56,7 @@ struct WelcomeView: View {
                         Button{
                             print("hello")
                         } label: {
-                            NavigationLink(destination: SignInView()) {
+                            NavigationLink(destination: LoginView()) {
                             RoundedButton(title: "Get Started")
                         }
                         
