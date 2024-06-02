@@ -32,7 +32,7 @@ struct TabButton: View {
                 .background(
                     Group {
                         if isSelected {
-                            VisualEffectBlur(style: .dark)
+                            Color.black.opacity(1)
                         } else {
                             Color.black.opacity(0)
                         }

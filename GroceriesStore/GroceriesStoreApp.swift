@@ -12,7 +12,7 @@ struct GroceriesStoreApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView{
-                WelcomeView()
+                WelcomeView().preferredColorScheme(.dark)
             }
         }
     }

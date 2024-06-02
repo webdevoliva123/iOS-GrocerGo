@@ -51,6 +51,8 @@
 		033D350F2C0B316900F4B35C /* ViewCarousleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D350E2C0B316900F4B35C /* ViewCarousleModel.swift */; };
 		033D35112C0B31B300F4B35C /* Carousel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 033D35102C0B31B300F4B35C /* Carousel.swift */; };
 		033D35132C0B542700F4B35C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 033D35122C0B542700F4B35C /* Assets.xcassets */; };
+		03FEC85D2C0C56F70008828B /* SectionTitleAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FEC85C2C0C56F70008828B /* SectionTitleAll.swift */; };
+		03FEC85F2C0C5BC50008828B /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FEC85E2C0C5BC50008828B /* ProductCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +101,8 @@
 		033D350E2C0B316900F4B35C /* ViewCarousleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCarousleModel.swift; sourceTree = "<group>"; };
 		033D35102C0B31B300F4B35C /* Carousel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carousel.swift; sourceTree = "<group>"; };
 		033D35122C0B542700F4B35C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03FEC85C2C0C56F70008828B /* SectionTitleAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTitleAll.swift; sourceTree = "<group>"; };
+		03FEC85E2C0C5BC50008828B /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +226,8 @@
 				033D34FA2C0A317900F4B35C /* AVPlayer.swift */,
 				033D350C2C0A6F0F00F4B35C /* TabButton.swift */,
 				033D35102C0B31B300F4B35C /* Carousel.swift */,
+				03FEC85C2C0C56F70008828B /* SectionTitleAll.swift */,
+				03FEC85E2C0C5BC50008828B /* ProductCell.swift */,
 			);
 			path = UiCommon;
 			sourceTree = "<group>";
@@ -370,10 +376,12 @@
 				033D34F92C0A2AC000F4B35C /* SignUpView.swift in Sources */,
 				033D350F2C0B316900F4B35C /* ViewCarousleModel.swift in Sources */,
 				033D34FB2C0A317900F4B35C /* AVPlayer.swift in Sources */,
+				03FEC85F2C0C5BC50008828B /* ProductCell.swift in Sources */,
 				0303661D2C0391840068E9E0 /* WelcomeView.swift in Sources */,
 				030366232C039B0B0068E9E0 /* UiExtensions.swift in Sources */,
 				0311755F2C09DD4400CF05DE /* LineTextFeild.swift in Sources */,
 				031175522C065F1400CF05DE /* VisualEffectBlur.swift in Sources */,
+				03FEC85D2C0C56F70008828B /* SectionTitleAll.swift in Sources */,
 				0311754B2C03C22700CF05DE /* RoundedButton.swift in Sources */,
 				033D35112C0B31B300F4B35C /* Carousel.swift in Sources */,
 				031175592C098E5300CF05DE /* LoginView.swift in Sources */,

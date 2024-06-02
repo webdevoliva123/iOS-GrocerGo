@@ -73,7 +73,7 @@ struct SignUpView: View {
                 Button{
                     print("hello")
                 } label: {
-                    NavigationLink(destination:  MainView() ){
+                    NavigationLink(destination:  MainView()){
                         RoundedButton(title: "Register")
                         
                     }

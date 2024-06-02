@@ -38,21 +38,161 @@ struct HomeView: View {
                 }
                 
             }.frame(minWidth: 0,maxWidth: .infinity).padding(.horizontal,15).padding(.vertical,15).background(VisualEffectBlur(style: .dark)).cornerRadius(50)
-            ScrollView{
-                
+            ScrollView(showsIndicators: false){
+                ScrollView(.horizontal,showsIndicators: false){
+                    LazyHStack(spacing: 10){
+//                        ForEach(0...4,id:\.self){
+//                            index in
+//
+//                        }
+                        
+                        Button{
+                            
+                        } label: {
+                            HStack{
+                                VStack{
+                                    Image("cat1").resizable().scaledToFit().frame(width: 22,height: 22)
+                                }.padding(15).background(Color(hex: "000")).cornerRadius(100)
+
+                                Text("Fruits & Vegetables").font(.system(size: 16,weight: .semibold)).foregroundColor(.white).multilineTextAlignment(.leading)
+                            }.frame(width: 200,alignment: .leading).padding(10).background(Color(hex: "111")).cornerRadius(100)
+                        }
+                        
+                        Button{
+                            
+                        } label: {
+                            HStack{
+                                VStack{
+                                    Image("cat2").resizable().scaledToFit().frame(width: 22,height: 22)
+                                }.padding(15).background(Color(hex: "000")).cornerRadius(100)
+
+                                Text("Foodgrains, Oil & Masala").font(.system(size: 16,weight: .semibold)).foregroundColor(.white).multilineTextAlignment(.leading)
+                            }.frame(width: 200,alignment: .leading).padding(10).background(Color(hex: "111")).cornerRadius(100)
+                        }
+                    }
+                }
+                Spacer().frame(height: 30)
                 CarouselView(items: [
-                           CarouselItem(image: "bannerz2"),
                            CarouselItem(image: "banner1"),
                            CarouselItem(image: "banner2"),
-                           CarouselItem(image: "banner3")
+                           CarouselItem(image: "banner3"),
+                           CarouselItem(image: "banner4")
                 ]).background(VisualEffectBlur(style: .dark))
+                Spacer().frame(height: 30)
                 
-//                Image("banner").resizable().scaledToFill().frame(height: 100 )
-//                Image("banner").resizable().scaledToFill().frame(height: 100 )
+                VStack{
+                    SectionTitleAll(sectionTitle: "Today's deals")
+                    ScrollView(.horizontal,showsIndicators: false){
+                        LazyHStack(spacing: 20){
+//                            ForEach(0...5,id:\.self){
+//                                index in
+//                                ProductCell(
+//                                pName : "Apple",
+//                                 pImage: "papple",
+//                                 Pdescription : "6pcs in bucket",
+//                                 isSale : true,
+//                                 saleTag : "20% OFF"
+//                                )
+//
+//                            }
+                            
+                            ProductCell(
+                            pName : "Apple",
+                             pImage: "papple",
+                             Pdescription : "6pcs in bucket",
+                             isSale : true,
+                             saleTag : "20% OFF"
+                            )
+                            
+                            
+                            ProductCell(
+                            pName : "Primera",
+                             pImage: "facewash",
+                             Pdescription : "Facewash Bottle",
+                            isSale : true,
+                            saleTag : "5% OFF"
+                            )
+
+                            ProductCell(
+                            pName : "Gomgom Vegetable",
+                             pImage: "salade",
+                             Pdescription : "1 kg, 1 piece",
+                            isSale : true,
+                            saleTag : "7% OFF"
+                            )
+
+                            ProductCell(
+                            pName : "Artisan Ramen",
+                             pImage: "ramen",
+                             Pdescription : "spicy flavor, 4 pieces",
+                            isSale : true,
+                            saleTag : "10% OFF"
+                            )
+                        }
+                    }
+                    
+                }
+                Spacer().frame(height: 30)
                 
-            }.padding(.horizontal,10).padding(.vertical,20)
+                VStack{
+                    SectionTitleAll(sectionTitle: "Shop Vegetables")
+                    ScrollView(.horizontal,showsIndicators: false){
+                        LazyHStack(spacing: 20){
+//                            ForEach(0...5,id:\.self){
+//                                index in
+//                                ProductCell(
+//                                pName : "Apple",
+//                                 pImage: "papple",
+//                                 Pdescription : "6pcs in bucket",
+//                                 isSale : true,
+//                                 saleTag : "20% OFF"
+//                                )
+//
+//                            }
+                            
+                            ProductCell(
+                            pName : "Apple",
+                             pImage: "papple",
+                             Pdescription : "6pcs in bucket",
+                             isSale : true,
+                             saleTag : "20% OFF"
+                            )
+                            
+                            
+                            ProductCell(
+                            pName : "Primera",
+                             pImage: "facewash",
+                             Pdescription : "Facewash Bottle",
+                            isSale : true,
+                            saleTag : "5% OFF"
+                            )
+
+                            ProductCell(
+                            pName : "Gomgom Vegetable",
+                             pImage: "salade",
+                             Pdescription : "1 kg, 1 piece",
+                            isSale : true,
+                            saleTag : "7% OFF"
+                            )
+
+                            ProductCell(
+                            pName : "Artisan Ramen",
+                             pImage: "ramen",
+                             Pdescription : "spicy flavor, 4 pieces",
+                            isSale : true,
+                            saleTag : "10% OFF"
+                            )
+                        }
+                    }
+                    
+                }
+                Spacer().frame(height: 140)
+                
+
+                
+            }.padding(.horizontal,10).padding(.top,20)
             
-        }.padding(.horizontal,10).padding(.top)
+        }.padding(.horizontal,10).padding(.top, 40).ignoresSafeArea()
     }
 }
 
